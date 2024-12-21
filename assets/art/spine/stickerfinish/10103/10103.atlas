@@ -1,0 +1,83 @@
+
+10103.png
+size: 492,342
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 2
+  size: 338, 375
+  orig: 338, 375
+  offset: 0, 0
+  index: -1
+eye_left_glow
+  rotate: false
+  xy: 460, 298
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+eye_right_glow
+  rotate: false
+  xy: 460, 298
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+eye_left_pupil
+  rotate: true
+  xy: 460, 317
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+eye_right_pupil
+  rotate: true
+  xy: 460, 317
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+eye_left_pupil_02
+  rotate: true
+  xy: 440, 98
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+eye_right_pupil_02
+  rotate: true
+  xy: 440, 98
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+eye_left_white
+  rotate: false
+  xy: 379, 75
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+eye_right_white
+  rotate: false
+  xy: 379, 14
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: true
+  xy: 379, 221
+  size: 119, 79
+  orig: 119, 79
+  offset: 0, 0
+  index: -1
+right_arm
+  rotate: false
+  xy: 379, 136
+  size: 111, 83
+  orig: 111, 83
+  offset: 0, 0
+  index: -1

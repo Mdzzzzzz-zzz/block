@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "36bcf3bb-5dd4-4933-b45d-f7e3c8d48705",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "LevelFinishedAll_exit_paper_anim"
+  }
+}

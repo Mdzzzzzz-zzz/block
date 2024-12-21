@@ -1,0 +1,3 @@
+# directories for searching native plugins
+/Users/tuyoo_zzg/Documents/ibgame/cli_arc8/native
+/Users/tuyoo_zzg/Documents/ibgame/cli_arc8/extensions

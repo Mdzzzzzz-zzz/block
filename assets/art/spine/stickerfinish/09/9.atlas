@@ -1,0 +1,83 @@
+
+9.png
+size: 696,516
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 437, 101
+  size: 413, 257
+  orig: 413, 257
+  offset: 0, 0
+  index: -1
+body copy
+  rotate: false
+  xy: 2, 237
+  size: 433, 277
+  orig: 433, 277
+  offset: 0, 0
+  index: -1
+eye white
+  rotate: false
+  xy: 374, 120
+  size: 35, 46
+  orig: 35, 46
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 411, 128
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+left fin
+  rotate: true
+  xy: 374, 168
+  size: 67, 44
+  orig: 67, 45
+  offset: 0, 0
+  index: -1
+left fin copy
+  rotate: false
+  xy: 2, 2
+  size: 87, 65
+  orig: 87, 65
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 235, 30
+  size: 205, 137
+  orig: 217, 146
+  offset: 6, 2
+  index: -1
+mouth copy
+  rotate: false
+  xy: 2, 69
+  size: 231, 166
+  orig: 231, 166
+  offset: 0, 0
+  index: -1
+retina
+  rotate: false
+  xy: 411, 138
+  size: 21, 28
+  orig: 21, 28
+  offset: 0, 0
+  index: -1
+right fin
+  rotate: false
+  xy: 526, 24
+  size: 129, 75
+  orig: 130, 75
+  offset: 1, 0
+  index: -1
+right fin copy
+  rotate: false
+  xy: 374, 4
+  size: 150, 95
+  orig: 150, 95
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "2b7ac0ff-28d1-4977-a9d7-2edf3367bae4",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "LevelFinishedAll_btn_enter_anim"
+  }
+}

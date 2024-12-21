@@ -1,0 +1,92 @@
+{
+    "name": "cli_arc8",
+    "platform": "web-desktop",
+    "buildPath": "project://build",
+    "debug": true,
+    "md5Cache": true,
+    "skipCompressTexture": true,
+    "sourceMaps": true,
+    "replaceSplashScreen": false,
+    "mainBundleCompressionType": "none",
+    "mainBundleIsRemote": false,
+    "mergeStartScene": false,
+    "experimentalEraseModules": false,
+    "compressTexture": true,
+    "packAutoAtlas": true,
+    "startScene": "bd8a9697-f6f5-46a2-9e99-a679a4b68993",
+    "scenes":
+    [
+        {
+            "url": "db://assets/scene/hall.scene",
+            "uuid": "6dd8fe70-9eee-423c-bcf3-7dbc4914e97d",
+            "inBundle": false
+        },
+        {
+            "url": "db://assets/scene/hotUpdate.scene",
+            "uuid": "c570e0ef-b54e-4b90-8204-8018a863a398",
+            "inBundle": false
+        },
+        {
+            "url": "db://assets/scene/loading.scene",
+            "uuid": "bd8a9697-f6f5-46a2-9e99-a679a4b68993",
+            "inBundle": false
+        },
+        {
+            "url": "db://assets/scene/login.scene",
+            "uuid": "25b8dd4f-942d-4f3c-81d8-cde60804672d",
+            "inBundle": false
+        },
+        {
+            "url": "db://assets/games/tetris/scene/scene_escape.scene",
+            "uuid": "644f6540-0c3e-4e24-a890-4d522b88568a",
+            "inBundle": true
+        },
+        {
+            "url": "db://assets/games/tetris/scene/scene_home.scene",
+            "uuid": "8fe1c67f-ac56-4388-b31d-98936d2a3049",
+            "inBundle": true
+        },
+        {
+            "url": "db://assets/games/tetris/scene/scene_menu.scene",
+            "uuid": "9d9fc92c-b634-4c09-8813-f1969216dd3b",
+            "inBundle": true
+        },
+        {
+            "url": "db://assets/games/tetris/scene/scene_play.scene",
+            "uuid": "065f931e-c4b5-4d67-aea2-475a8dddae20",
+            "inBundle": true
+        }
+    ],
+    "outputName": "web-desktop",
+    "packages":
+    {
+        "web-desktop":
+        {
+            "resolution":
+            {
+                "designWidth": 360,
+                "designHeight": 640
+            },
+            "polyfills":
+            {
+                "asyncFunctions": true
+            },
+            "remoteServerAddress": ""
+        },
+        "cocos-service":
+        {
+            "configID": "07b5c2",
+            "services":
+            [
+                {
+                    "service_id": "235",
+                    "service_component_name": "service-analytics",
+                    "builder": "/Users/daichenxi/.CocosCreator/.service/analytics/builder/builder.js",
+                    "enable": false,
+                    "params":
+                    {}
+                }
+            ]
+        },
+    }
+}

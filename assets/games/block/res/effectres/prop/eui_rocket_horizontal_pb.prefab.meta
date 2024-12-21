@@ -1,0 +1,13 @@
+{
+  "ver": "1.1.43",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "30a6eb78-a69e-4e97-9f91-1d7b5e1fa68f",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "eui_rocket_horizontal_pb"
+  }
+}

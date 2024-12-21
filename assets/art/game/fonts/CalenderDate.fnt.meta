@@ -1,0 +1,143 @@
+{
+  "ver": "1.0.6",
+  "importer": "bitmap-font",
+  "imported": true,
+  "uuid": "3990affd-0272-495b-ae32-ea9b04dc75ec",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "_fntConfig": {
+      "commonHeight": 25,
+      "fontSize": 24,
+      "atlasName": "CalenderDate.png",
+      "fontDefDictionary": {
+        "32": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 7
+        },
+        "48": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 15,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 13
+        },
+        "49": {
+          "rect": {
+            "x": 16,
+            "y": 0,
+            "width": 8,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 6
+        },
+        "50": {
+          "rect": {
+            "x": 25,
+            "y": 0,
+            "width": 14,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 12
+        },
+        "51": {
+          "rect": {
+            "x": 40,
+            "y": 0,
+            "width": 13,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 11
+        },
+        "52": {
+          "rect": {
+            "x": 0,
+            "y": 21,
+            "width": 16,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 14
+        },
+        "53": {
+          "rect": {
+            "x": 0,
+            "y": 42,
+            "width": 14,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 12
+        },
+        "54": {
+          "rect": {
+            "x": 17,
+            "y": 21,
+            "width": 14,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 12
+        },
+        "55": {
+          "rect": {
+            "x": 15,
+            "y": 42,
+            "width": 14,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 12
+        },
+        "56": {
+          "rect": {
+            "x": 32,
+            "y": 21,
+            "width": 14,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 12
+        },
+        "57": {
+          "rect": {
+            "x": 47,
+            "y": 21,
+            "width": 15,
+            "height": 20
+          },
+          "xOffset": -1,
+          "yOffset": -1,
+          "xAdvance": 13
+        }
+      },
+      "kerningDict": {}
+    },
+    "fontSize": 24,
+    "textureUuid": "ea85b21b-d6e8-4c8b-9140-0399b04bfb28"
+  }
+}

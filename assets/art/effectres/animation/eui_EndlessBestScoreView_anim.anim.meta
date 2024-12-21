@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "cc11dc39-6709-408d-90e5-db7b69ad2555",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "eui_EndlessBestScoreView_anim"
+  }
+}

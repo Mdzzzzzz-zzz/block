@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "5ebfaf0e-bcde-4c3b-a651-b22dcb16cecb",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "LevelFinishedAll_btn_exit_anim"
+  }
+}

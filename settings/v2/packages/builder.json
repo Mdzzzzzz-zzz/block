@@ -1,0 +1,41 @@
+{
+  "__version__": "1.3.5",
+  "splash-setting": {
+    "displayRatio": 2.5,
+    "totalTime": 2000,
+    "watermarkLocation": "default",
+    "autoFit": true,
+    "url": "project://settings/splash.png"
+  },
+  "textureCompressConfig": {
+    "genMipmaps": false,
+    "userPreset": {
+      "75Ht11MGNFAIpGpXP+Ympc": {
+        "name": "astc_png",
+        "options": {
+          "miniGame": {
+            "astc_8x8": {
+              "quality": "fast"
+            },
+            "png": {
+              "quality": 80
+            }
+          }
+        }
+      },
+      "c5pb1mHRhPwIPAN2MiVk9v": {
+        "name": "astc_jpg",
+        "options": {
+          "miniGame": {
+            "astc_8x8": {
+              "quality": "fast"
+            },
+            "jpg": {
+              "quality": 80
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,181 @@
+
+6.png
+size: 944,393
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 14
+  rotate: false
+  xy: 395, 3
+  size: 64, 14
+  orig: 64, 14
+  offset: 0, 0
+  index: -1
+Layer 16
+  rotate: true
+  xy: 727, 252
+  size: 139, 192
+  orig: 140, 192
+  offset: 1, 0
+  index: -1
+Layer 16 copy
+  rotate: false
+  xy: 350, 179
+  size: 158, 212
+  orig: 160, 212
+  offset: 2, 0
+  index: -1
+left eye
+  rotate: false
+  xy: 835, 2
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+left eye glow
+  rotate: false
+  xy: 2, 6
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+right eye glow
+  rotate: false
+  xy: 2, 6
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+left eye white
+  rotate: false
+  xy: 884, 97
+  size: 58, 63
+  orig: 58, 63
+  offset: 0, 0
+  index: -1
+left hand
+  rotate: true
+  xy: 176, 2
+  size: 152, 217
+  orig: 152, 217
+  offset: 0, 0
+  index: -1
+left hand copy
+  rotate: false
+  xy: 2, 154
+  size: 172, 237
+  orig: 172, 237
+  offset: 0, 0
+  index: -1
+left leg
+  rotate: false
+  xy: 672, 26
+  size: 80, 71
+  orig: 80, 71
+  offset: 0, 0
+  index: -1
+left leg copy
+  rotate: false
+  xy: 772, 159
+  size: 100, 91
+  orig: 100, 91
+  offset: 0, 0
+  index: -1
+line1
+  rotate: false
+  xy: 534, 96
+  size: 117, 141
+  orig: 117, 141
+  offset: 0, 0
+  index: -1
+line1 copy
+  rotate: true
+  xy: 2, 15
+  size: 137, 161
+  orig: 137, 161
+  offset: 0, 0
+  index: -1
+line2
+  rotate: false
+  xy: 653, 99
+  size: 117, 138
+  orig: 117, 138
+  offset: 0, 0
+  index: -1
+line2 copy
+  rotate: false
+  xy: 395, 19
+  size: 137, 158
+  orig: 137, 158
+  offset: 0, 0
+  index: -1
+mouth copy
+  rotate: true
+  xy: 874, 162
+  size: 88, 54
+  orig: 88, 54
+  offset: 0, 0
+  index: -1
+right eye
+  rotate: false
+  xy: 862, 2
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+right eye white
+  rotate: false
+  xy: 835, 35
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+right hand
+  rotate: true
+  xy: 510, 239
+  size: 152, 215
+  orig: 152, 215
+  offset: 0, 0
+  index: -1
+right hand copy
+  rotate: false
+  xy: 176, 156
+  size: 172, 235
+  orig: 172, 235
+  offset: 0, 0
+  index: -1
+right leg
+  rotate: false
+  xy: 754, 26
+  size: 79, 71
+  orig: 79, 71
+  offset: 0, 0
+  index: -1
+right leg copy
+  rotate: false
+  xy: 534, 3
+  size: 99, 91
+  orig: 99, 91
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 635, 4
+  size: 90, 35
+  orig: 90, 35
+  offset: 0, 0
+  index: -1
+tail copy
+  rotate: false
+  xy: 772, 102
+  size: 110, 55
+  orig: 110, 55
+  offset: 0, 0
+  index: -1
+teeth
+  rotate: true
+  xy: 921, 327
+  size: 64, 21
+  orig: 64, 21
+  offset: 0, 0
+  index: -1

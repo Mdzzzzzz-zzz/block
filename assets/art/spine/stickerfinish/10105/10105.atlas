@@ -1,0 +1,76 @@
+
+10105.png
+size: 601,326
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 415, 322
+  orig: 415, 322
+  offset: 0, 0
+  index: -1
+eye glow
+  rotate: false
+  xy: 578, 313
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+eye retina
+  rotate: false
+  xy: 557, 20
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+eye white
+  rotate: false
+  xy: 504, 12
+  size: 51, 50
+  orig: 51, 50
+  offset: 0, 0
+  index: -1
+face bg
+  rotate: false
+  xy: 523, 146
+  size: 55, 112
+  orig: 55, 112
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: true
+  xy: 502, 64
+  size: 78, 96
+  orig: 78, 96
+  offset: 0, 0
+  index: -1
+left arm white
+  rotate: false
+  xy: 419, 47
+  size: 81, 95
+  orig: 81, 95
+  offset: 0, 0
+  index: -1
+lips
+  rotate: false
+  xy: 419, 260
+  size: 157, 64
+  orig: 157, 64
+  offset: 0, 0
+  index: -1
+right arm
+  rotate: false
+  xy: 419, 144
+  size: 102, 114
+  orig: 102, 114
+  offset: 0, 0
+  index: -1
+right face
+  rotate: true
+  xy: 419, 3
+  size: 42, 83
+  orig: 45, 86
+  offset: 3, 0
+  index: -1

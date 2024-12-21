@@ -1,0 +1,146 @@
+
+10002.png
+size: 608,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back leg
+  rotate: true
+  xy: 545, 314
+  size: 82, 61
+  orig: 82, 61
+  offset: 0, 0
+  index: -1
+back leg copy
+  rotate: false
+  xy: 400, 75
+  size: 103, 83
+  orig: 103, 83
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 147
+  size: 274, 175
+  orig: 274, 175
+  offset: 0, 0
+  index: -1
+body copy
+  rotate: false
+  xy: 2, 324
+  size: 296, 197
+  orig: 296, 197
+  offset: 0, 0
+  index: -1
+front leg
+  rotate: true
+  xy: 277, 29
+  size: 45, 99
+  orig: 45, 99
+  offset: 0, 0
+  index: -1
+front leg copy
+  rotate: false
+  xy: 403, 160
+  size: 66, 121
+  orig: 66, 121
+  offset: 0, 0
+  index: -1
+left eye
+  rotate: true
+  xy: 461, 289
+  size: 101, 82
+  orig: 101, 82
+  offset: 0, 0
+  index: -1
+left eye copy
+  rotate: false
+  xy: 278, 177
+  size: 123, 104
+  orig: 123, 104
+  offset: 0, 0
+  index: -1
+left hand
+  rotate: true
+  xy: 156, 15
+  size: 130, 119
+  orig: 130, 119
+  offset: 0, 0
+  index: -1
+left hand copy
+  rotate: false
+  xy: 2, 4
+  size: 152, 141
+  orig: 152, 141
+  offset: 0, 0
+  index: -1
+left wis
+  rotate: false
+  xy: 277, 2
+  size: 71, 25
+  orig: 71, 25
+  offset: 0, 0
+  index: -1
+left wis copy
+  rotate: false
+  xy: 378, 31
+  size: 89, 42
+  orig: 89, 42
+  offset: 0, 0
+  index: -1
+right eye
+  rotate: false
+  xy: 505, 86
+  size: 77, 98
+  orig: 77, 98
+  offset: 0, 0
+  index: -1
+right eye copy
+  rotate: true
+  xy: 278, 76
+  size: 99, 120
+  orig: 99, 120
+  offset: 0, 0
+  index: -1
+right hand
+  rotate: false
+  xy: 471, 186
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+right hand copy
+  rotate: false
+  xy: 483, 398
+  size: 122, 123
+  orig: 122, 123
+  offset: 0, 0
+  index: -1
+right wis
+  rotate: false
+  xy: 469, 30
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+right wis copy
+  rotate: false
+  xy: 514, 24
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 300, 283
+  size: 159, 107
+  orig: 159, 107
+  offset: 0, 0
+  index: -1
+tail copy
+  rotate: false
+  xy: 300, 392
+  size: 181, 129
+  orig: 181, 129
+  offset: 0, 0
+  index: -1

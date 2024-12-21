@@ -1,0 +1,100 @@
+function __initApp () {  // init app
+    require('./web-adapter');
+    const blk1010_wasm = require('./blk1010_wasm.js');
+    const firstScreen = require('./first-screen');
+    
+    // Polyfills bundle.
+    require("<%= polyfillsBundleFile %>");
+
+    // SystemJS support.
+    require("<%= systemJsBundleFile %>");
+
+    // Adapt for IOS, swap if opposite
+    if (canvas){
+        var _w = canvas.width;
+        var _h = canvas.height;
+        if (screen.width < screen.height) {
+            if (canvas.width > canvas.height) {
+                _w = canvas.height;
+                _h = canvas.width;
+            }
+        } else {
+            if (canvas.width < canvas.height) {
+                _w = canvas.height;
+                _h = canvas.width;
+            }
+        }
+        canvas.width = _w;
+        canvas.height = _h;
+    }
+    // Adjust initial canvas size
+    if (canvas && window.devicePixelRatio >= 2) {canvas.width *= 2; canvas.height *= 2;}
+    
+    const importMap = require("<%= importMapFile%>").default;
+    System.warmup({
+        importMap,
+        importMapUrl: '<%= importMapFile%>',
+        defaultHandler: (urlNoSchema) => {
+            require('.' + urlNoSchema);
+        },
+        handlers: {
+            'plugin:': (urlNoSchema) => {
+                requirePlugin(urlNoSchema);
+            },
+            'project:': (urlNoSchema) => {
+                require(urlNoSchema);
+            },
+        },
+    });
+
+    let options = tt.getLaunchOptionsSync()
+    console.log("options.scene" + options.scene);
+
+    tt.onShow((res) => {
+        let isFromSideBar = (res.launch_from == 'homepage' && res.location == 'sidebar_card');
+        console.log("isFromSideBar: " + isFromSideBar);
+        window["isFromSideBar"] = isFromSideBar;
+        // document.dispatchEvent(new Event('ttOnShow'));
+    })
+
+    
+
+    firstScreen.start('default', 'default', 'false').then(() => {
+        let win = window;
+        blk1010_wasm.initAsync().then((res)=>{
+            blk1010_wasm.init_hook();
+            win["blk1010_wasm"] = blk1010_wasm
+        });
+        return System.import('<%= applicationJs %>');
+    }).then((module) => {
+        return firstScreen.setProgress(0.2).then(() => Promise.resolve(module));
+    }).then(({ Application }) => {
+        return new Application();
+    }).then((application) => {
+        return firstScreen.setProgress(0.4).then(() => Promise.resolve(application));
+    }).then((application) => {
+        return onApplicationCreated(application);
+    }).catch((err) => {
+        console.error(err);
+    });
+    
+
+function onApplicationCreated(application) {
+    return System.import('cc').then((module) => {
+        return firstScreen.setProgress(0.6).then(() => Promise.resolve(module));
+    }).then((cc) => {
+        require('./engine-adapter');
+        return application.init(cc);
+    }).then(() => {
+        return firstScreen.end().then(() => application.start());
+    });
+}
+    }  // init app
+    
+    var sysInfo = tt.getSystemInfoSync();
+    if (sysInfo.platform.toLocaleLowerCase() === 'android') {
+        GameGlobal.requestAnimationFrame (__initApp);
+    } else {
+        __initApp();
+    }
+    

@@ -1,0 +1,125 @@
+
+chaiyu.png
+size: 694,188
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+yu_0_BJS
+  rotate: true
+  xy: 494, 13
+  size: 38, 28
+  orig: 38, 28
+  offset: 0, 0
+  index: -1
+yu_10_BJS
+  rotate: true
+  xy: 598, 94
+  size: 92, 72
+  orig: 92, 72
+  offset: 0, 0
+  index: -1
+yu_11_BJS
+  rotate: true
+  xy: 457, 6
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+yu_12_BJS
+  rotate: false
+  xy: 604, 20
+  size: 53, 72
+  orig: 53, 72
+  offset: 0, 0
+  index: -1
+yu_1_BJS
+  rotate: false
+  xy: 638, 5
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+yu_2_BJS
+  rotate: false
+  xy: 653, 6
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+yu_3_BJS
+  rotate: true
+  xy: 659, 37
+  size: 55, 33
+  orig: 55, 33
+  offset: 0, 0
+  index: -1
+yu_4_BJS
+  rotate: false
+  xy: 368, 53
+  size: 127, 133
+  orig: 127, 133
+  offset: 0, 0
+  index: -1
+yu_5_BJS
+  rotate: false
+  xy: 604, 4
+  size: 32, 14
+  orig: 32, 14
+  offset: 0, 0
+  index: -1
+yu_6_BJS
+  rotate: false
+  xy: 421, 2
+  size: 34, 49
+  orig: 34, 49
+  offset: 0, 0
+  index: -1
+yu_7_BJS
+  rotate: true
+  xy: 2, 3
+  size: 183, 174
+  orig: 183, 174
+  offset: 0, 0
+  index: -1
+yu_87_BJS
+  rotate: true
+  xy: 368, 2
+  size: 49, 51
+  orig: 49, 51
+  offset: 0, 0
+  index: -1
+yu_89_BJS
+  rotate: true
+  xy: 497, 84
+  size: 102, 99
+  orig: 102, 99
+  offset: 0, 0
+  index: -1
+yu_8_BJS
+  rotate: true
+  xy: 497, 54
+  size: 28, 32
+  orig: 28, 32
+  offset: 0, 0
+  index: -1
+yu_91_BJS
+  rotate: false
+  xy: 178, 6
+  size: 188, 180
+  orig: 188, 180
+  offset: 0, 0
+  index: -1
+yu_92_BJS
+  rotate: false
+  xy: 531, 6
+  size: 71, 76
+  orig: 71, 76
+  offset: 0, 0
+  index: -1
+yu_9_BJS
+  rotate: false
+  xy: 665, 7
+  size: 20, 28
+  orig: 20, 28
+  offset: 0, 0
+  index: -1

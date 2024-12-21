@@ -1,0 +1,70 @@
+
+#///////////////////////////
+# Cocos Creator 3D Project
+#///////////////////////////
+library/
+temp/
+local/
+# build/
+profiles/
+update_files/
+output/
+update_package/
+#//////////////////////////
+# NPM
+#//////////////////////////
+node_modules/
+
+#//////////////////////////
+# VSCode
+#//////////////////////////
+.vscode/
+
+#//////////////////////////
+# WebStorm
+#//////////////////////////
+.idea/
+.DS_Store
+solitaireGame_3.x_dev
+消除推荐
+solitaireGame_3.x_dev.zip
+assets/games/design
+native/engine/android/app/release/BlockMaster_v1.0.0_3_release.apk
+native/engine/android/app/release/output-metadata.json
+native/engine/android/app/release
+art/yangyangyang
+extensions/tinypng
+native/engine/android/.gradle
+build/android
+build/wechatgame
+build/bytedance-mini-game
+
+# Xcode
+.DS_Store
+*/.DS_Store
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserdatad
+build/ios/proj/build
+build/ios/proj/BlockMaster.build
+build/ios/proj/Debug-iphoneos
+build/ios/proj/archives
+build/ios/data
+build/ios/proj/boost/container/archives
+build/ios/proj/boost/container/BlockMaster.build
+build/ios/proj/CMakeFiles
+build/ios/proj/CMakeScripts
+build/ios/proj/boost
+build/ios/proj/Pods
+cocos.compile.config.json
+assets/lyl/

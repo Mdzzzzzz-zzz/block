@@ -1,0 +1,125 @@
+function __initApp () {  // init app
+    globalThis.__wxRequire = require;  // FIX: require cannot work in separate engine 
+    require('./web-adapter');
+    
+    const firstScreen = require('./first-screen');
+    
+    <%- include(cocosTemplate, {}) %>
+    
+    // Adapt for IOS, swap if opposite
+    if (canvas){
+        var _w = canvas.width;
+        var _h = canvas.height;
+        if (screen.width < screen.height) {
+            if (canvas.width > canvas.height) {
+                _w = canvas.height;
+                _h = canvas.width;
+            }
+        } else {
+            if (canvas.width < canvas.height) {
+                _w = canvas.height;
+                _h = canvas.width;
+            }
+        }
+        canvas.width = _w;
+        canvas.height = _h;
+    }
+    // Adjust initial canvas size
+    if (canvas && window.devicePixelRatio >= 2) {canvas.width *= 2; canvas.height *= 2;}
+    
+    const importMap = require("<%= importMapFile%>").default;
+    System.warmup({
+        importMap,
+        importMapUrl: '<%= importMapFile%>',
+        defaultHandler: (urlNoSchema) => {
+            require('.' + urlNoSchema);
+        },
+        handlers: {
+            'plugin:': (urlNoSchema) => {
+                requirePlugin(urlNoSchema);
+            },
+            'project:': (urlNoSchema) => {
+                require(urlNoSchema);
+            },
+        },
+    });
+    
+    firstScreen.start('<%= alpha %>', '<%= antialias %>', '<%= useWebgl2 %>').then(() => {
+        return System.import('<%= applicationJs %>');
+    }).then((module) => {
+        return firstScreen.setProgress(0.2).then(() => Promise.resolve(module));
+    }).then(({ Application }) => {
+        return new Application();
+    }).then((application) => {
+        return firstScreen.setProgress(0.4).then(() => Promise.resolve(application));
+    }).then((application) => {
+        return onApplicationCreated(application);
+    }).catch((err) => {
+        console.error(err);
+    });
+    function initTaSdk() {
+        let TDAnalytics = require("./tdanalytics.mg.wx.min.js");
+        let config = {
+            appId: "640e3bcb289247169d3fbde323aeb52c", // 项目 APP ID
+            serverUrl: "https://122-slg-online01.qijihdhk.com:8991", // 上报地址
+            autoTrack: {
+                appShow: true, // 自动采集 ta_mp_show
+                appHide: true, // 自动采集 ta_mp_hide
+            },
+            enableLog:false
+        };
+        //初始化
+        TDAnalytics.init(config);
+        //设置公共事件属性
+        let superProperties = {
+            channel : "wx", //字符串
+        };
+        TDAnalytics.setSuperProperties(superProperties);
+        window["TDAnalytics"] =TDAnalytics
+    }
+    function initTySdk(){
+        var tywx = require('./tywx.js').tywx
+        window["tywx"] = tywx
+        tywx.fkIsSim = false
+        tywx.StateInfo.debugMode = false
+        tywx.StateInfo.errorLogMode = false
+        tywx.StateInfo.adManagerMode = false
+        tywx.StateInfo.shareManagerMode = false
+        var launchInfo = wx.getLaunchOptionsSync();
+        tywx && tywx.wxOnshowAction && tywx.wxOnshowAction(launchInfo);
+        wx.onShow(function(result) {
+            tywx && tywx.wxOnshowAction && tywx.wxOnshowAction(result);
+        });
+    }
+    function initWasm(){
+        const blk1010_wasm = require('./blk1010_wasm.js');
+        let win = window;
+        blk1010_wasm.initAsync().then((res)=>{
+            blk1010_wasm.init_hook();
+            win["blk1010_wasm"] = blk1010_wasm
+        });
+    }
+    function onApplicationCreated(application) {
+        return System.import('cc').then((module) => {
+            return firstScreen.setProgress(0.6).then(() => Promise.resolve(module));
+        }).then((cc) => {
+            require('./engine-adapter');
+            return application.init(cc);
+        }).then(() => {
+            //initTaSdk();
+            initTySdk();
+            initWasm();
+            return firstScreen.end().then(() => application.start());
+        });
+    }
+
+    }  // init app
+    
+    // NOTE: on WeChat Android end, we can only get the correct screen size at the second tick of game.
+    var sysInfo = wx.getSystemInfoSync();
+    if (sysInfo.platform.toLocaleLowerCase() === 'android') {
+        GameGlobal.requestAnimationFrame (__initApp);
+    } else {
+        __initApp();
+    }
+    

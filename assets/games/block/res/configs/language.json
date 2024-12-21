@@ -1,0 +1,101 @@
+{
+  "tip_start_adventure": {
+    "zh": "开始冒险"
+  },
+  "tip_tittle": {
+    "zh": "提示"
+  },
+  "tip_version": {
+    "zh": "版本号："
+  },
+  "tip_give_up": {
+    "zh": "是否放弃当前挑战？"
+  },
+  "tip_start_level": {
+    "zh": "是否挑战关卡【{0}】？"
+  },
+  "btn_adventure": {
+    "zh": "冒险模式"
+  },
+  "btn_classic": {
+    "zh": "经典模式"
+  },
+  "btn_retry": {
+    "zh": "重新挑战"
+  },
+  "btn_super": {
+    "zh": "确定"
+  },
+  "btn_cancel": {
+    "zh": "取消"
+  },
+  "btn_revivie": {
+    "zh": "复活"
+  },
+  "btn_get": {
+    "zh": "领取"
+  },
+  "btn_next_level": {
+    "zh": "下一关"
+  },
+  "btn_good_opt": {
+    "zh": "高光时刻"
+  },
+  "btn_share": {
+    "zh": "分享好友"
+  },
+  "item_hammer": {
+    "zh": "锤子"
+  },
+  "tittle_setting": {
+    "zh": "设置"
+  },
+  "setting_sfx_effect": {
+    "zh": "音效"
+  },
+  "setting_home": {
+    "zh": "主页"
+  },
+  "setting_replay": {
+    "zh": "重玩"
+  },
+  "setting_start": {
+    "zh": "开始"
+  },
+  "setting_play": {
+    "zh": "开始"
+  },
+  "setting_back": {
+    "zh": "返回"
+  },
+  "setting_language": {
+    "zh": "语言"
+  },
+  "tips_day_login": {
+    "zh": "每日登录"
+  },
+  "tip_change_all": {
+    "zh": "换一换"
+  },
+  "tip_level_task": {
+    "zh": "关卡目标"
+  },
+  "tip_ad_fail": {
+    "zh": "播放失败,稍后重试"
+  },
+  "tip_no_change_times": {
+    "zh": "本局次数已用尽"
+  },
+  "tip_not_finish_watch": {
+    "zh": "看完视频才能获得奖励哦"
+  },
+  "txt_level": {
+    "zh": "关卡"
+  },
+  "tips_no_space": {
+    "zh": "没有可放置的空间"
+  },
+  "tips_encourage_1": {
+    "zh": "还差一点，加油"
+  }
+}

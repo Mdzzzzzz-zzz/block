@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "24c85ebe-3a9f-4051-9b77-c3cbdca1389c",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "LevelConditionDiamondItem_fk_anim"
+  }
+}

@@ -1,0 +1,146 @@
+
+2.png
+size: 768,203
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 442, 93
+  size: 202, 108
+  orig: 205, 108
+  offset: 3, 0
+  index: -1
+body copy
+  rotate: false
+  xy: 2, 73
+  size: 225, 128
+  orig: 225, 128
+  offset: 0, 0
+  index: -1
+glow eye 1
+  rotate: false
+  xy: 286, 4
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+glow eye 2
+  rotate: false
+  xy: 298, 4
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+left bot leg
+  rotate: true
+  xy: 245, 9
+  size: 71, 39
+  orig: 71, 39
+  offset: 0, 0
+  index: -1
+left bot leg copy
+  rotate: false
+  xy: 326, 21
+  size: 91, 59
+  orig: 91, 59
+  offset: 0, 0
+  index: -1
+left eye
+  rotate: false
+  xy: 69, 2
+  size: 64, 69
+  orig: 64, 69
+  offset: 0, 0
+  index: -1
+left eye copy
+  rotate: false
+  xy: 592, 2
+  size: 84, 89
+  orig: 84, 89
+  offset: 0, 0
+  index: -1
+left hand
+  rotate: false
+  xy: 678, 3
+  size: 84, 98
+  orig: 84, 99
+  offset: 0, 1
+  index: -1
+left hand copy
+  rotate: false
+  xy: 229, 82
+  size: 104, 119
+  orig: 104, 119
+  offset: 0, 0
+  index: -1
+left top leg
+  rotate: true
+  xy: 733, 152
+  size: 49, 33
+  orig: 49, 33
+  offset: 0, 0
+  index: -1
+left top leg copy
+  rotate: true
+  xy: 135, 2
+  size: 69, 53
+  orig: 69, 53
+  offset: 0, 0
+  index: -1
+right bot leg
+  rotate: true
+  xy: 286, 16
+  size: 64, 38
+  orig: 64, 38
+  offset: 0, 0
+  index: -1
+right bot leg copy
+  rotate: false
+  xy: 419, 23
+  size: 84, 58
+  orig: 84, 58
+  offset: 0, 0
+  index: -1
+right eye
+  rotate: false
+  xy: 2, 2
+  size: 65, 69
+  orig: 65, 69
+  offset: 0, 0
+  index: -1
+right eye copy
+  rotate: false
+  xy: 505, 2
+  size: 85, 89
+  orig: 85, 89
+  offset: 0, 0
+  index: -1
+right hand
+  rotate: false
+  xy: 646, 103
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+right hand copy
+  rotate: false
+  xy: 335, 83
+  size: 105, 118
+  orig: 105, 118
+  offset: 0, 0
+  index: -1
+right top leg
+  rotate: true
+  xy: 733, 106
+  size: 44, 33
+  orig: 44, 33
+  offset: 0, 0
+  index: -1
+right top leg copy
+  rotate: true
+  xy: 190, 7
+  size: 64, 53
+  orig: 64, 53
+  offset: 0, 0
+  index: -1

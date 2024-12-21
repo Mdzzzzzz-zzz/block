@@ -1,0 +1,10 @@
+{
+  "__version__": "1.0.4",
+  "config": {
+    "buildDir": "/Users/tuyoo_zzg/Documents/ibgame/cli_arc8/build/android",
+    "engineDir": "/Applications/CocosCreator/Creator/3.7.3",
+    "neteaseKey": "Jx9aR3Yp2G5qB7sy",
+    "excludeExt": "",
+    "buildTypeSelect": "0"
+  }
+}

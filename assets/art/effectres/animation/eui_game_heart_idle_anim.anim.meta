@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "133dffcf-15f8-47cf-bbd1-b2c64e51ee7f",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "eui_game_heart_idle_anim"
+  }
+}

@@ -1,0 +1,90 @@
+
+10006.png
+size: 848,361
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 1
+  rotate: false
+  xy: 379, 19
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+Ellipse 1 copy
+  rotate: false
+  xy: 2, 2
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+Ellipse 2 copy
+  rotate: false
+  xy: 816, 14
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+Ellipse 2 copy 2
+  rotate: false
+  xy: 352, 3
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 773, 46
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+Layer 3 copy
+  rotate: true
+  xy: 681, 26
+  size: 100, 90
+  orig: 100, 90
+  offset: 0, 0
+  index: -1
+Layer 5 copy
+  rotate: true
+  xy: 2, 10
+  size: 349, 348
+  orig: 349, 348
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: false
+  xy: 681, 128
+  size: 108, 231
+  orig: 108, 231
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: false
+  xy: 791, 289
+  size: 55, 70
+  orig: 55, 70
+  offset: 0, 0
+  index: -1
+Layer 9 copy
+  rotate: false
+  xy: 773, 2
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 352, 30
+  size: 329, 327
+  orig: 329, 328
+  offset: 0, 0
+  index: -1
+lip1
+  rotate: false
+  xy: 791, 252
+  size: 42, 35
+  orig: 42, 35
+  offset: 0, 0
+  index: -1

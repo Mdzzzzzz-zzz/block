@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "3b7db7fe-7b79-4d86-b56b-da5f3b41b6b4",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "root_condition_score_target_fk_anim"
+  }
+}

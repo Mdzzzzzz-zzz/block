@@ -1,0 +1,17 @@
+{
+  "name": "blk1010_wasm",
+  "collaborators": [
+    "zipxing <zipxing@hotmail.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "blk1010_wasm_bg.wasm",
+    "blk1010_wasm.js",
+    "blk1010_wasm.d.ts"
+  ],
+  "module": "blk1010_wasm.js",
+  "types": "blk1010_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

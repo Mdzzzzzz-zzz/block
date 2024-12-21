@@ -1,0 +1,76 @@
+
+10102.png
+size: 645,284
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 2
+  size: 419, 280
+  orig: 419, 280
+  offset: 0, 0
+  index: -1
+eye ball
+  rotate: false
+  xy: 588, 13
+  size: 31, 29
+  orig: 31, 29
+  offset: 0, 0
+  index: -1
+eye glow
+  rotate: false
+  xy: 589, 101
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+left arm bottom
+  rotate: false
+  xy: 423, 130
+  size: 118, 152
+  orig: 118, 152
+  offset: 0, 0
+  index: -1
+left arm top
+  rotate: false
+  xy: 543, 141
+  size: 100, 141
+  orig: 100, 141
+  offset: 0, 0
+  index: -1
+left lid
+  rotate: true
+  xy: 543, 42
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+right arm
+  rotate: true
+  xy: 423, 12
+  size: 116, 118
+  orig: 116, 118
+  offset: 0, 0
+  index: -1
+right eye
+  rotate: false
+  xy: 589, 112
+  size: 33, 27
+  orig: 33, 27
+  offset: 0, 0
+  index: -1
+right lid
+  rotate: true
+  xy: 588, 44
+  size: 39, 31
+  orig: 39, 31
+  offset: 0, 0
+  index: -1
+white eye
+  rotate: false
+  xy: 543, 85
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1

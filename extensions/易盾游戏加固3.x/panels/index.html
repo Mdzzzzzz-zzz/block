@@ -1,0 +1,66 @@
+<h2>
+    <ui-label value="i18n:netease-yidun-encrypt-3d.setPannel"></ui-label>
+</h2>
+
+<hr />
+
+<div class="middle layout vertical" >
+    <h3>
+        <ui-prop tooltip="i18n:netease-yidun-encrypt-3d.selectBuildtip">
+            <ui-label value="i18n:netease-yidun-encrypt-3d.buildDir"></ui-label>
+        </ui-prop>
+    </h3>
+
+    <ui-file class="inputstyle" type="directory" id="buildDir" placeholder="i18n:netease-yidun-encrypt-3d.selectBuildtip"></ui-file>
+</div>
+
+<div class="middle layout vertical" >
+    <h3>
+        <ui-prop tooltip="i18n:netease-yidun-encrypt-3d.selectEnginetip">
+            <ui-label value="i18n:netease-yidun-encrypt-3d.engineDir"></ui-label>
+        </ui-prop>
+    </h3>
+
+    <ui-file class="inputstyle" type="directory" id="engineDir" placeholder="i18n:netease-yidun-encrypt-3d.selectEnginetip"></ui-file>
+</div>
+
+<div class="middle layout vertical" >
+    <h3>
+        <ui-prop>
+            <ui-label style="width:200px;" value="i18n:netease-yidun-encrypt-3d.key"></ui-label>
+        </ui-prop>
+    </h3>
+
+    <ui-input class="inputstyle" id="neteaseKey"></ui-input>
+</div>
+
+<div class="middle layout vertical" >
+    <h3>
+        <ui-prop>
+            <ui-label style="width:200px;" value="i18n:netease-yidun-encrypt-3d.exclude"></ui-label>
+        </ui-prop>
+    </h3>
+
+    <ui-input class="inputstyle" id="excludeExt"></ui-input>
+</div>
+
+<div class="middle layout vertical" >
+    <h3>
+        <ui-prop>
+            <ui-label value="i18n:netease-yidun-encrypt-3d.type"></ui-label>
+        </ui-prop>
+    </h3>
+
+    <ui-select class="selectstyle" id = "buildTypeSelect" value="0">
+        <option value="0">Mobile</option>
+        <option value="1">WechatGame</option>
+    </ui-select>
+</div>
+<hr />
+
+<h3>
+    <ui-button class="okstyle" id="onDoEncrypt">
+        <ui-label value="i18n:netease-yidun-encrypt-3d.encrypt"></ui-label>
+    </ui-button>
+</h3>
+

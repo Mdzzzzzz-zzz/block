@@ -1,0 +1,48 @@
+PODS:
+  - AppLovinSDK (12.3.0)
+  - AppsFlyer-AdRevenue (6.13.1):
+    - AppsFlyerFramework (= 6.13.1)
+  - AppsFlyerFramework (6.13.1):
+    - AppsFlyerFramework/Main (= 6.13.1)
+  - AppsFlyerFramework/Main (6.13.1)
+  - Bugly (2.5.93)
+  - ThinkingDataCore (1.0.1):
+    - ThinkingDataCore/Main (= 1.0.1)
+  - ThinkingDataCore/iOS (1.0.1)
+  - ThinkingDataCore/Main (1.0.1):
+    - ThinkingDataCore/iOS
+    - ThinkingDataCore/OSX
+  - ThinkingSDK (3.0.1):
+    - ThinkingSDK/Main (= 3.0.1)
+  - ThinkingSDK/iOS (3.0.1):
+    - ThinkingDataCore (= 1.0.1)
+  - ThinkingSDK/Main (3.0.1):
+    - ThinkingSDK/iOS
+    - ThinkingSDK/OSX
+
+DEPENDENCIES:
+  - AppLovinSDK
+  - AppsFlyer-AdRevenue
+  - Bugly
+  - ThinkingSDK
+
+SPEC REPOS:
+  trunk:
+    - AppLovinSDK
+    - AppsFlyer-AdRevenue
+    - AppsFlyerFramework
+    - Bugly
+    - ThinkingDataCore
+    - ThinkingSDK
+
+SPEC CHECKSUMS:
+  AppLovinSDK: 04201ea11acec7c5e11f6c97236379df23c6aba1
+  AppsFlyer-AdRevenue: 7d208dbaa04c7b561d80633040cc72ee434f6641
+  AppsFlyerFramework: 971521cf5b890c2afeab2f2c91734547b8b169ca
+  Bugly: b8715e6ec4004b7f7fbffab0643ba80545aee3da
+  ThinkingDataCore: 1ef8b754e80718e0533503d95045ab8a7e3ea6b3
+  ThinkingSDK: e8eff32a9a91e43e673643398952ac45bfbbddae
+
+PODFILE CHECKSUM: 403ef7c1aa2cb42e34e3f0227e1166341755f4ad
+
+COCOAPODS: 1.15.0

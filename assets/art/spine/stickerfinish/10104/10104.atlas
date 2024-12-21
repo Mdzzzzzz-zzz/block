@@ -1,0 +1,76 @@
+
+10104.png
+size: 495,328
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 2
+  size: 324, 351
+  orig: 324, 351
+  offset: 0, 0
+  index: -1
+eye glow
+  rotate: false
+  xy: 355, 2
+  size: 7, 7
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+eye retina
+  rotate: false
+  xy: 426, 228
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+eye white
+  rotate: false
+  xy: 440, 25
+  size: 45, 47
+  orig: 45, 47
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: true
+  xy: 355, 108
+  size: 103, 54
+  orig: 103, 54
+  offset: 0, 0
+  index: -1
+left arm bottom
+  rotate: true
+  xy: 355, 213
+  size: 113, 69
+  orig: 113, 69
+  offset: 0, 0
+  index: -1
+left bot arm
+  rotate: false
+  xy: 440, 74
+  size: 51, 59
+  orig: 51, 59
+  offset: 0, 0
+  index: -1
+left bot arm bottom
+  rotate: true
+  xy: 426, 258
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1
+right arm
+  rotate: true
+  xy: 355, 11
+  size: 95, 83
+  orig: 95, 83
+  offset: 0, 0
+  index: -1
+right arm bottom
+  rotate: true
+  xy: 411, 135
+  size: 76, 75
+  orig: 76, 75
+  offset: 0, 0
+  index: -1

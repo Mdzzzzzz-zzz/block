@@ -1,0 +1,90 @@
+
+10106.png
+size: 503,359
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 2, 12
+  size: 345, 329
+  orig: 345, 329
+  offset: 0, 0
+  index: -1
+cap
+  rotate: true
+  xy: 333, 22
+  size: 132, 56
+  orig: 132, 56
+  offset: 0, 0
+  index: -1
+cap white
+  rotate: false
+  xy: 333, 291
+  size: 149, 66
+  orig: 149, 66
+  offset: 0, 0
+  index: -1
+elft arm
+  rotate: false
+  xy: 437, 30
+  size: 55, 53
+  orig: 55, 53
+  offset: 0, 0
+  index: -1
+eye glow
+  rotate: false
+  xy: 2, 2
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+eye retina
+  rotate: false
+  xy: 467, 161
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+eye white
+  rotate: true
+  xy: 469, 190
+  size: 37, 31
+  orig: 37, 31
+  offset: 0, 0
+  index: -1
+left white arm
+  rotate: true
+  xy: 437, 85
+  size: 69, 62
+  orig: 69, 62
+  offset: 0, 0
+  index: -1
+left white bg
+  rotate: true
+  xy: 469, 229
+  size: 60, 32
+  orig: 60, 32
+  offset: 0, 0
+  index: -1
+right arm
+  rotate: false
+  xy: 391, 12
+  size: 44, 142
+  orig: 44, 142
+  offset: 0, 0
+  index: -1
+right shadow
+  rotate: true
+  xy: 333, 221
+  size: 68, 134
+  orig: 82, 145
+  offset: 7, 6
+  index: -1
+right white arm
+  rotate: true
+  xy: 333, 156
+  size: 63, 132
+  orig: 63, 132
+  offset: 0, 0
+  index: -1

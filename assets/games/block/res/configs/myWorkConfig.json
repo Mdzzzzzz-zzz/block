@@ -1,0 +1,357 @@
+{
+    "mapping": [
+        {
+            "rewardList": [
+                30,
+                28,
+                33,
+                27,
+                30,
+                41,
+                25
+            ],
+            "path": "UI_StickerPanel_Sticker1",
+            "totalLevels": 214
+        },
+        {
+            "rewardList": [
+                36,
+                26,
+                29,
+                25,
+                16,
+                20,
+                38
+            ],
+            "path": "UI_StickerPanel_Sticker2",
+            "totalLevels": 190
+        },
+        {
+            "rewardList": [
+                29,
+                26,
+                25,
+                21,
+                23,
+                38,
+                35
+            ],
+            "path": "UI_StickerPanel_Sticker3",
+            "totalLevels": 197
+        },
+        {
+            "rewardList": [
+                25,
+                32,
+                30,
+                31,
+                15,
+                17,
+                15
+            ],
+            "path": "UI_StickerPanel_Sticker4",
+            "totalLevels": 165
+        },
+        {
+            "rewardList": [
+                28,
+                20,
+                20,
+                25,
+                24,
+                20,
+                34
+            ],
+            "path": "UI_StickerPanel_Sticker5",
+            "totalLevels": 171
+        },
+        {
+            "rewardList": [
+                21,
+                17,
+                11,
+                27,
+                21,
+                18,
+                18,
+                25,
+                10,
+                18
+            ],
+            "path": "UI_StickerPanel_Sticker6",
+            "totalLevels": 186
+        },
+        {
+            "rewardList": [
+                13,
+                14,
+                15,
+                21,
+                13,
+                17,
+                13,
+                19,
+                19,
+                16
+            ],
+            "path": "UI_StickerPanel_Sticker7",
+            "totalLevels": 160
+        },
+        {
+            "rewardList": [
+                14,
+                14,
+                21,
+                20,
+                11,
+                10,
+                9,
+                15,
+                15,
+                16
+            ],
+            "path": "UI_StickerPanel_Sticker8",
+            "totalLevels": 145
+        },
+        {
+            "rewardList": [
+                20,
+                13,
+                13,
+                24,
+                24,
+                20,
+                30,
+                18,
+                30,
+                10
+            ],
+            "path": "UI_StickerPanel_Sticker9",
+            "totalLevels": 202
+        },
+        {
+            "rewardList": [
+                18,
+                14,
+                8,
+                14,
+                12,
+                14,
+                10,
+                7,
+                13,
+                8
+            ],
+            "path": "UI_StickerPanel_Sticker10",
+            "totalLevels": 118
+        },
+        {
+            "rewardList": [
+                23,
+                24,
+                8,
+                17,
+                21,
+                16,
+                11,
+                16,
+                18,
+                28
+            ],
+            "path": "UI_StickerPanel_Sticker11",
+            "totalLevels": 182
+        },
+        {
+            "rewardList": [
+                16,
+                16,
+                20,
+                18,
+                15,
+                15,
+                22,
+                28,
+                28,
+                18
+            ],
+            "path": "UI_StickerPanel_Sticker12",
+            "totalLevels": 196
+        },
+        {
+            "rewardList": [
+                15,
+                11,
+                12,
+                11,
+                12,
+                13,
+                14,
+                14,
+                11,
+                20
+            ],
+            "path": "UI_StickerPanel_Sticker13",
+            "totalLevels": 133
+        },
+        {
+            "rewardList": [
+                19,
+                11,
+                15,
+                18,
+                21,
+                16,
+                16,
+                22,
+                32,
+                20
+            ],
+            "path": "UI_StickerPanel_Sticker14",
+            "totalLevels": 190
+        },
+        {
+            "rewardList": [
+                18,
+                17,
+                24,
+                11,
+                21,
+                15,
+                13,
+                22,
+                18,
+                12
+            ],
+            "path": "UI_StickerPanel_Sticker15",
+            "totalLevels": 171
+        },
+        {
+            "rewardList": [
+                16,
+                12,
+                14,
+                22,
+                15,
+                12,
+                22,
+                15,
+                8,
+                13
+            ],
+            "path": "UI_StickerPanel_Sticker16",
+            "totalLevels": 149
+        },
+        {
+            "rewardList": [
+                18,
+                17,
+                13,
+                24,
+                21,
+                26,
+                15,
+                20,
+                16,
+                12
+            ],
+            "path": "UI_StickerPanel_Sticker17",
+            "totalLevels": 182
+        },
+        {
+            "rewardList": [
+                18,
+                22,
+                15,
+                21,
+                15,
+                18,
+                29,
+                13,
+                15,
+                26
+            ],
+            "path": "UI_StickerPanel_Sticker18",
+            "totalLevels": 192
+        },
+        {
+            "rewardList": [
+                15,
+                22,
+                20,
+                18,
+                16,
+                13,
+                17,
+                15,
+                10,
+                28
+            ],
+            "path": "UI_StickerPanel_Sticker19",
+            "totalLevels": 174
+        },
+        {
+            "rewardList": [
+                20,
+                24,
+                12,
+                12,
+                17,
+                17,
+                16,
+                18,
+                16,
+                12
+            ],
+            "path": "UI_StickerPanel_Sticker20",
+            "totalLevels": 164
+        },
+        {
+            "rewardList": [
+                17,
+                17,
+                10,
+                10,
+                20,
+                20,
+                14,
+                24,
+                30,
+                24
+            ],
+            "path": "UI_StickerPanel_Sticker21",
+            "totalLevels": 186
+        },
+        {
+            "rewardList": [
+                22,
+                21,
+                15,
+                17,
+                11,
+                15,
+                13,
+                14,
+                12,
+                12
+            ],
+            "path": "UI_StickerPanel_Sticker22",
+            "totalLevels": 152
+        },
+        {
+            "rewardList": [
+                18,
+                14,
+                19,
+                15,
+                14,
+                16,
+                17,
+                18,
+                16,
+                12
+            ],
+            "path": "UI_StickerPanel_Sticker23",
+            "totalLevels": 159
+        }
+    ]
+}

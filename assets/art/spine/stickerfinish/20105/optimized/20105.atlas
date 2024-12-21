@@ -1,0 +1,475 @@
+
+20105.png
+size: 1004,799
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ef_star
+  rotate: false
+  xy: 472, 85
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+left_ball
+  rotate: false
+  xy: 2, 136
+  size: 150, 153
+  orig: 150, 153
+  offset: 0, 0
+  index: -1
+left_ball_white
+  rotate: false
+  xy: 2, 442
+  size: 172, 173
+  orig: 172, 173
+  offset: 0, 0
+  index: -1
+left_shells
+  rotate: false
+  xy: 181, 635
+  size: 157, 162
+  orig: 157, 162
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00000
+  rotate: false
+  xy: 403, 565
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00001
+  rotate: true
+  xy: 250, 4
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00002
+  rotate: true
+  xy: 333, 4
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00003
+  rotate: false
+  xy: 416, 2
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00004
+  rotate: false
+  xy: 387, 221
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00005
+  rotate: false
+  xy: 842, 386
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00006
+  rotate: false
+  xy: 468, 221
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00007
+  rotate: false
+  xy: 472, 138
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00008
+  rotate: false
+  xy: 549, 253
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00009
+  rotate: false
+  xy: 630, 276
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00010
+  rotate: false
+  xy: 711, 276
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00011
+  rotate: false
+  xy: 792, 276
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00012
+  rotate: false
+  xy: 553, 170
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00013
+  rotate: false
+  xy: 634, 193
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00014
+  rotate: false
+  xy: 715, 193
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00015
+  rotate: false
+  xy: 796, 193
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00016
+  rotate: false
+  xy: 553, 87
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00017
+  rotate: false
+  xy: 634, 110
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00018
+  rotate: false
+  xy: 715, 110
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00019
+  rotate: false
+  xy: 796, 110
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00020
+  rotate: false
+  xy: 923, 386
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00021
+  rotate: false
+  xy: 873, 303
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00022
+  rotate: false
+  xy: 877, 220
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00023
+  rotate: false
+  xy: 877, 137
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00024
+  rotate: false
+  xy: 497, 2
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00025
+  rotate: false
+  xy: 578, 4
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00026
+  rotate: false
+  xy: 659, 27
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00027
+  rotate: false
+  xy: 740, 27
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00028
+  rotate: false
+  xy: 821, 27
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00029
+  rotate: false
+  xy: 902, 54
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells.png Comp 1/shells_glow_00030
+  rotate: false
+  xy: 902, 54
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+left_shells_white
+  rotate: false
+  xy: 2, 617
+  size: 177, 180
+  orig: 177, 180
+  offset: 0, 0
+  index: -1
+pearl_glow/paerl_00004
+  rotate: false
+  xy: 640, 689
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00005
+  rotate: false
+  xy: 751, 689
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00006
+  rotate: false
+  xy: 862, 689
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00007
+  rotate: false
+  xy: 640, 579
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00008
+  rotate: false
+  xy: 751, 579
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00009
+  rotate: false
+  xy: 862, 579
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00010
+  rotate: false
+  xy: 497, 557
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00011
+  rotate: false
+  xy: 181, 525
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00012
+  rotate: false
+  xy: 176, 415
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00013
+  rotate: false
+  xy: 165, 305
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00014
+  rotate: false
+  xy: 292, 525
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00015
+  rotate: false
+  xy: 287, 415
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00016
+  rotate: false
+  xy: 276, 305
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00017
+  rotate: true
+  xy: 140, 25
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00018
+  rotate: false
+  xy: 165, 195
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00019
+  rotate: false
+  xy: 276, 195
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00020
+  rotate: false
+  xy: 250, 85
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00021
+  rotate: false
+  xy: 361, 85
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00022
+  rotate: true
+  xy: 387, 304
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00023
+  rotate: false
+  xy: 398, 415
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00024
+  rotate: true
+  xy: 509, 446
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00025
+  rotate: false
+  xy: 619, 469
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00026
+  rotate: false
+  xy: 730, 469
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00027
+  rotate: false
+  xy: 841, 469
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00028
+  rotate: false
+  xy: 509, 336
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00029
+  rotate: false
+  xy: 620, 359
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+pearl_glow/paerl_00030
+  rotate: false
+  xy: 731, 359
+  size: 109, 108
+  orig: 110, 109
+  offset: 1, 0
+  index: -1
+right_ball
+  rotate: false
+  xy: 497, 667
+  size: 141, 130
+  orig: 141, 130
+  offset: 0, 0
+  index: -1
+right_ball_white
+  rotate: false
+  xy: 2, 291
+  size: 161, 149
+  orig: 161, 149
+  offset: 0, 0
+  index: -1
+right_shell
+  rotate: false
+  xy: 2, 4
+  size: 136, 130
+  orig: 136, 130
+  offset: 0, 0
+  index: -1
+right_shell_white
+  rotate: false
+  xy: 340, 648
+  size: 155, 149
+  orig: 155, 149
+  offset: 0, 0
+  index: -1

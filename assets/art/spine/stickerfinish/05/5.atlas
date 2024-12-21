@@ -1,0 +1,90 @@
+
+5.png
+size: 599,257
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 2 copy 2
+  rotate: true
+  xy: 2, 77
+  size: 178, 253
+  orig: 178, 253
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: true
+  xy: 257, 6
+  size: 89, 199
+  orig: 89, 199
+  offset: 0, 0
+  index: -1
+Layer 4 copy
+  rotate: true
+  xy: 492, 128
+  size: 127, 105
+  orig: 127, 105
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 257, 97
+  size: 158, 233
+  orig: 158, 233
+  offset: 0, 0
+  index: -1
+eye glow1
+  rotate: false
+  xy: 226, 56
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+eye glow2
+  rotate: false
+  xy: 226, 66
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+fin
+  rotate: true
+  xy: 2, 14
+  size: 61, 179
+  orig: 69, 179
+  offset: 0, 0
+  index: -1
+hand
+  rotate: true
+  xy: 492, 19
+  size: 107, 85
+  orig: 107, 85
+  offset: 0, 0
+  index: -1
+left eye white
+  rotate: false
+  xy: 183, 29
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+right eye white
+  rotate: false
+  xy: 183, 29
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+left retina
+  rotate: true
+  xy: 183, 2
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+right retina
+  rotate: true
+  xy: 214, 2
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1

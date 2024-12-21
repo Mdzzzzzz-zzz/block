@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name" translatable="false">Block Burst</string>
+    <string name="allSdks">tyGuest,googleplay,firebasepush</string>Ï
+    <string name="ty_gameId">20536</string>
+    <string name="ty_appId">20536</string>
+    <string name="ty_clientId">Android_5.0_tyGuest,facebook.googleplay.0-hall20536.googleplay.blockPuzzle</string>
+    <string name="ty_cloudId">121</string>
+</resources>

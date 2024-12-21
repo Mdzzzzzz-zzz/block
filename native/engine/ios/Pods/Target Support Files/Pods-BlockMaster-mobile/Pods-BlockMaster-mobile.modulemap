@@ -1,0 +1,6 @@
+framework module Pods_BlockMaster_mobile {
+  umbrella header "Pods-BlockMaster-mobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

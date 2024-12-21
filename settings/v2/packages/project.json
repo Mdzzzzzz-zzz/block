@@ -1,0 +1,30 @@
+{
+  "__version__": "1.0.4",
+  "layer": [
+    {
+      "name": "default",
+      "value": 1
+    },
+    {
+      "name": "3D",
+      "value": 2
+    },
+    {
+      "name": "PERSIST",
+      "value": 4
+    }
+  ],
+  "general": {
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitWidth": false,
+      "fitHeight": false
+    }
+  },
+  "physics": {
+    "autoSimulation": false,
+    "defaultMaterial": ""
+  },
+  "custom_joint_texture_layouts": []
+}

@@ -1,0 +1,292 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+apply plugin: 'com.android.application'
+
+RES_PATH = RES_PATH.replace("\\", "/")
+COCOS_ENGINE_PATH = COCOS_ENGINE_PATH.replace("\\", "/")
+
+buildDir = "${RES_PATH}/proj/build/$project.name"
+
+
+buildscript {
+
+    repositories {
+        google()
+//        maven { url 'https://artifactory.yahooinc.com/artifactory/maven/'}
+        maven { url "https://maven.google.com/"}
+        //-----------登陆支付等仓库地址-----------
+        maven {
+            allowInsecureProtocol = true
+            url "http://192.168.10.153/artifactory/tuyoo-haiwai-pub-release/" }
+        //-----------GA-SDK等组件仓库地址-----------------
+        maven {
+            allowInsecureProtocol = true
+            url "http://192.168.10.153/artifactory/tuyoo-component/" }
+        //iron source
+        maven {
+            url 'https://android-sdk.is.com/'
+        }
+        mavenCentral ()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+
+        // google-services plugin
+        classpath 'com.google.gms:google-services:4.3.13'
+
+        classpath "com.android.tools.lint:lint-api:31.0.2"
+        classpath "com.android.tools.lint:lint-checks:31.0.2"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+//        maven { url 'https://artifactory.yahooinc.com/artifactory/maven/'}
+        maven { url "https://maven.google.com/"}
+        //-----------登陆支付等仓库地址-----------
+        maven {
+            allowInsecureProtocol = true
+            url "http://192.168.10.153/artifactory/tuyoo-haiwai-pub-release/" }
+        //-----------GA-SDK等组件仓库地址-----------------
+        maven {
+            allowInsecureProtocol = true
+            url "http://192.168.10.153/artifactory/tuyoo-component/" }
+        //iron source
+        maven {
+            url 'https://android-sdk.is.com/'
+        }
+//        maven { url 'https://artifactory.yahooinc.com/artifactory/maven/'}
+        maven { url "https://maven.google.com/"}
+        //-----------登陆支付等仓库地址-----------
+        maven {
+            allowInsecureProtocol = true
+            url "http://192.168.10.153/artifactory/tuyoo-haiwai-pub-release/" }
+        //-----------GA-SDK等组件仓库地址-----------------
+        maven {
+            allowInsecureProtocol = true
+            url "http://192.168.10.153/artifactory/tuyoo-component/" }
+        mavenCentral ()
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+def releaseTime() {
+//    return new Date().format("yyyyMMdd-HHmmss");
+    return new Date().format("yyyyMMdd-HHmmss");
+}
+android {
+    compileSdkVersion PROP_COMPILE_SDK_VERSION.toInteger()
+    buildToolsVersion PROP_BUILD_TOOLS_VERSION
+    ndkPath PROP_NDK_PATH
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId APPLICATION_ID
+        minSdkVersion PROP_MIN_SDK_VERSION
+        targetSdkVersion PROP_TARGET_SDK_VERSION
+        versionCode VERSION_CODE.toInteger()
+        versionName VERSION_NAME
+
+        externalNativeBuild {
+            cmake {
+                targets "cocos"
+                arguments "-DRES_DIR=${RES_PATH}", "-DCOCOS_X_PATH=${COCOS_ENGINE_PATH}", "-DANDROID_STL=c++_static", "-DANDROID_TOOLCHAIN=clang", "-DANDROID_ARM_NEON=TRUE", "-DANDROID_LD=gold"
+            }
+            ndk { abiFilters PROP_APP_ABI.split(':') }
+        }
+
+        multiDexEnabled false
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+        setProperty("archivesBaseName", "BlockMaster_v${versionName}_${versionCode}_${releaseTime()}")
+    }
+
+    sourceSets.main {
+        java.srcDirs "../src", "src"
+        res.srcDirs "../res", 'res'
+        jniLibs.srcDirs "../libs", 'libs'
+        manifest.srcFile "AndroidManifest.xml"
+        assets.srcDir "${RES_PATH}/data"
+        jniLibs {
+            // Vulkan validation layer
+            // srcDir "${android.ndkDirectory}/sources/third_party/vulkan/src/build-android/jniLibs"
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "../CMakeLists.txt"
+            buildStagingDirectory "${RES_PATH}/proj/build"
+        }
+    }
+
+    signingConfigs {
+
+       release {
+            if (project.hasProperty("RELEASE_STORE_FILE") && !RELEASE_STORE_FILE.isEmpty()) {
+                storeFile file(RELEASE_STORE_FILE)
+                storePassword RELEASE_STORE_PASSWORD
+                keyAlias RELEASE_KEY_ALIAS
+                keyPassword RELEASE_KEY_PASSWORD
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (project.hasProperty("RELEASE_STORE_FILE")) {
+                signingConfig signingConfigs.release
+            }
+            externalNativeBuild {
+                cmake {
+                    // switch HIDE_SYMBOLS to OFF to skip compilation flag `-fvisibility=hidden`
+                    arguments "-DHIDE_SYMBOLS=ON"
+                }
+            }
+
+            if (PROP_IS_DEBUG == "false") {
+                getIsDefault().set(true)
+            }
+
+            // resValue  "string", "app_name", PROP_APP_NAME
+        }
+
+        debug {
+            debuggable true
+            jniDebuggable true
+            renderscriptDebuggable true
+
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (project.hasProperty("RELEASE_STORE_FILE")) {
+                signingConfig signingConfigs.release
+            }
+
+            // resValue  "string", "app_name", "${PROP_APP_NAME}-dbg"
+            // applicationIdSuffix ".debug"
+        }
+    }
+    configurations {
+        all { // You should exclude one of them not both of them
+            exclude group: "com.squareup.okio", module: "okio"
+            exclude group: "com.squareup.okhttp3", module: "okhttp"
+        }
+    }
+    applicationVariants.all{
+        variant->variant.outputs.all{
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                def fileName ="BlockMaster"+"_v"+defaultConfig.versionName+"_"+defaultConfig.versionCode+"_"+buildType.name+"-${releaseTime()}"+".apk"
+                outputFileName = fileName
+            }
+//            if (outputFile != null && outputFile.name.endsWith('.aab')) {
+//                def fileName ="BlockMaster"+"_v"+defaultConfig.versionName+"_"+defaultConfig.versionCode+"_"+buildType.name+".aab"
+//                outputFileName = fileName
+//            }
+        }
+    }
+    // 添加aaptOptions配置
+    aaptOptions {
+        cruncherEnabled = false
+        useNewCruncher = false
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+}
+
+repositories {
+    maven {url 'https://android-sdk.is.com/'}
+
+
+//    maven { url 'https://artifactory.yahooinc.com/artifactory/maven/'}
+    maven { url "https://maven.google.com/"}
+    //-----------登陆支付等仓库地址-----------
+    maven { url "http://192.168.10.153/artifactory/tuyoo-haiwai-pub-release/" }
+    //-----------GA-SDK等组件仓库地址-----------------
+    maven { url "http://192.168.10.153/artifactory/tuyoo-component/" }
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation fileTree(dir: '../libs', include: ['*.jar', '*.aar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    implementation fileTree(dir: "${COCOS_ENGINE_PATH}/cocos/platform/android/java/libs", include: ['*.jar'])
+    implementation project(':libservice')
+    implementation project(':libcocos')
+
+    implementation platform('com.google.firebase:firebase-bom:25.12.0')
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.android.billingclient:billing:5.2.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
+
+    implementation 'com.appsflyer:af-android-sdk:6.13.0'
+    implementation 'com.appsflyer:adrevenue:6.9.0'
+    implementation "com.android.installreferrer:installreferrer:2.2"
+
+    // TY-SDK
+//    implementation('com.tuyoo.gamesdk:tuyoosdk:1.1.14_20220831_release') { transitive = true }
+//    implementation('com.tuyoo.gamesdk:sdk-tyGuest:1.0.3_1022_release') { transitive = true }
+
+    //GA SDK
+//    implementation 'com.tuyoo.component:growsdk-gasdk:2.4.19_0608-RELEASE'
+    //GA Push base库
+//    implementation 'com.tuyoo.component:growsdk-pushbase:1.0.11_0708-RELEASE'
+    //GA Push firebase库
+//    implementation 'com.tuyoo.component:growsdk-firebase:1.0.7_0419-RELEASE'
+
+    // bugly
+    implementation 'com.tencent.bugly:crashreport:latest.release'
+//    implementation  'io.realm:realm-annotations:10.4.0'
+//    implementation 'io.realm:realm-android-library:5.1.0'
+
+    //iron source
+//    implementation 'com.ironsource.sdk:mediationsdk:7.3.1'
+//    implementation 'com.applovin:applovin-sdk:12.3.1'
+    implementation 'com.applovin:applovin-sdk:+'
+//    implementation 'com.applovin.mediation:google-adapter:+'
+    implementation 'com.applovin.mediation:facebook-adapter:+'
+    implementation 'com.applovin.mediation:unityads-adapter:+'
+    implementation 'com.google.android.gms:play-services-appset:16.0.0'
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+    implementation 'com.google.android.gms:play-services-basement:18.1.0'
+    // Add UnityAds Network
+//    implementation 'com.ironsource.adapters:unityadsadapter:4.3.30'
+//    implementation 'com.unity3d.ads:unity-ads:4.7.1'
+//    implementation 'com.ironsource.sdk:mediationsdk:7.2.7'
+//    implementation 'com.google.android.gms:play-services-appset:16.0.0'
+//    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+//    implementation 'com.google.android.gms:play-services-basement:18.1.0'
+//    implementation 'androidx.cardview:cardview:1.0.0'
+
+    // Add UnityAds Network
+//    implementation 'com.ironsource.adapters:unityadsadapter:4.3.24'
+//    implementation 'com.unity3d.ads:unity-ads:4.6.1'
+    //Ta
+    implementation 'cn.thinkingdata.android:ThinkingAnalyticsSDK:2.8.3'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+googleServices.disableVersionCheck = true

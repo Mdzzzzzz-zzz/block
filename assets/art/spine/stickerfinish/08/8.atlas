@@ -1,0 +1,132 @@
+
+8.png
+size: 811,393
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back leg
+  rotate: false
+  xy: 397, 159
+  size: 88, 50
+  orig: 88, 50
+  offset: 0, 0
+  index: -1
+back leg copy
+  rotate: false
+  xy: 695, 184
+  size: 108, 70
+  orig: 108, 70
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 125, 153
+  size: 238, 101
+  orig: 238, 101
+  offset: 0, 0
+  index: -1
+body copy
+  rotate: true
+  xy: 2, 133
+  size: 258, 121
+  orig: 258, 121
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 397, 211
+  size: 180, 147
+  orig: 180, 147
+  offset: 0, 0
+  index: -1
+head copy
+  rotate: true
+  xy: 228, 191
+  size: 200, 167
+  orig: 200, 167
+  offset: 0, 0
+  index: -1
+left eye white
+  rotate: true
+  xy: 690, 94
+  size: 88, 101
+  orig: 88, 101
+  offset: 0, 0
+  index: -1
+left glow
+  rotate: false
+  xy: 329, 165
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+left hand
+  rotate: false
+  xy: 561, 61
+  size: 127, 154
+  orig: 127, 154
+  offset: 0, 0
+  index: -1
+left hand copy
+  rotate: false
+  xy: 546, 217
+  size: 147, 174
+  orig: 147, 174
+  offset: 0, 0
+  index: -1
+left retina
+  rotate: false
+  xy: 690, 25
+  size: 65, 67
+  orig: 65, 67
+  offset: 0, 0
+  index: -1
+right eye whiet
+  rotate: true
+  xy: 228, 154
+  size: 35, 99
+  orig: 35, 99
+  offset: 0, 0
+  index: -1
+right glow
+  rotate: false
+  xy: 125, 139
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+right hand
+  rotate: false
+  xy: 695, 256
+  size: 114, 135
+  orig: 116, 135
+  offset: 2, 0
+  index: -1
+right hand copy
+  rotate: false
+  xy: 424, 2
+  size: 135, 155
+  orig: 136, 155
+  offset: 1, 0
+  index: -1
+right retina
+  rotate: true
+  xy: 487, 162
+  size: 47, 61
+  orig: 47, 61
+  offset: 0, 0
+  index: -1
+shell
+  rotate: false
+  xy: 2, 2
+  size: 199, 129
+  orig: 199, 129
+  offset: 0, 0
+  index: -1
+shell copy
+  rotate: false
+  xy: 203, 2
+  size: 219, 149
+  orig: 219, 149
+  offset: 0, 0
+  index: -1

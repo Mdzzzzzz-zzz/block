@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1039216256299",
+    "project_id": "block-master-fishdom",
+    "storage_bucket": "block-master-fishdom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039216256299:android:40085ccee73300dbf6d16e",
+        "android_client_info": {
+          "package_name": "com.ty.world.blk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039216256299-l3qlhrl4mq2togh0snkb31j9ruultitj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ty.world.blk",
+            "certificate_hash": "466c79e59daacf289a97d9c0d61e271772481eaa"
+          }
+        },
+        {
+          "client_id": "1039216256299-ml1rtc384h7bm4ujl9kvn023kjtqdsu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmhQjx0Gb4-PIw88xwMmK6aWVeRvfZGmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039216256299-ml1rtc384h7bm4ujl9kvn023kjtqdsu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

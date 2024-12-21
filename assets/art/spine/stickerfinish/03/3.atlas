@@ -1,0 +1,76 @@
+
+3.png
+size: 323,515
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 386
+  size: 316, 127
+  orig: 316, 127
+  offset: 0, 0
+  index: -1
+body copy
+  rotate: true
+  xy: 2, 48
+  size: 336, 147
+  orig: 336, 147
+  offset: 0, 0
+  index: -1
+cap
+  rotate: true
+  xy: 151, 41
+  size: 111, 68
+  orig: 111, 68
+  offset: 0, 0
+  index: -1
+cap copy
+  rotate: false
+  xy: 151, 154
+  size: 131, 88
+  orig: 131, 88
+  offset: 0, 0
+  index: -1
+left eye
+  rotate: false
+  xy: 66, 20
+  size: 20, 26
+  orig: 20, 26
+  offset: 0, 0
+  index: -1
+left eye white
+  rotate: false
+  xy: 2, 2
+  size: 33, 44
+  orig: 33, 44
+  offset: 0, 0
+  index: -1
+right eye
+  rotate: false
+  xy: 37, 13
+  size: 27, 33
+  orig: 27, 33
+  offset: 0, 0
+  index: -1
+right eye white
+  rotate: true
+  xy: 221, 59
+  size: 93, 100
+  orig: 93, 100
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 151, 244
+  size: 142, 59
+  orig: 142, 59
+  offset: 0, 0
+  index: -1
+tail copy
+  rotate: false
+  xy: 151, 305
+  size: 162, 79
+  orig: 162, 79
+  offset: 0, 0
+  index: -1

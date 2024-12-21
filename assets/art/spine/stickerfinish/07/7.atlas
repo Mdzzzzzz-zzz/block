@@ -1,0 +1,27 @@
+
+7.png
+size: 381,450
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ellipse 1
+  rotate: false
+  xy: 2, 435
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: true
+  xy: 2, 2
+  size: 232, 377
+  orig: 232, 377
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: true
+  xy: 17, 236
+  size: 212, 357
+  orig: 212, 357
+  offset: 0, 0
+  index: -1

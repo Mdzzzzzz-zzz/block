@@ -1,0 +1,66 @@
+{
+  "classic": {
+    "SkillNeed": 30,
+    "SkillMax": 5,
+    "BombTime": 60,
+    "BombTimeMIN": 5,
+    "BombReduce": 5,
+    "BombReduceCD": 120,
+    "ClearAll": 300,
+    "PutBlockScore": 1,
+    "ClearBlockLine": 10,
+    "SkillClearBomb": 0,
+    "SkillClearBlock": 1,
+    "ClearBlockMultiple": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "ComboMultiple": [
+      0,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350
+    ]
+  },
+  "level":{
+    "SkillNeed": 30,
+    "SkillMax": 5,
+    "BombTime": 60,
+    "BombTimeMIN": 5,
+    "BombReduce": 5,
+    "BombReduceCD": 120,
+    "ClearAll": 300,
+    "PutBlockScore": 1,
+    "ClearBlockLine": 10,
+    "SkillClearBomb": 0,
+    "SkillClearBlock": 1,
+    "ClearBlockMultiple": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "ComboMultiple": [
+      0,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350
+    ]
+  }
+}

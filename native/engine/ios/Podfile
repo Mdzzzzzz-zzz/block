@@ -1,0 +1,38 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+project '../../../build/ios/proj/BlockMaster.xcodeproj'
+target 'BlockMaster-mobile' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BlockMaster-mobile
+  pod 'AppLovinSDK'
+  pod 'Bugly'
+  pod 'ThinkingSDK'
+#  pod 'AppsFlyerFramework'
+  pod 'AppsFlyer-AdRevenue'
+end
+
+target 'boost_container' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for boost_container
+
+end
+
+target 'cocos_engine' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for cocos_engine
+
+end
+plugin 'cocoapods-pod-sign'
+# skip_pod_bundle_sign # 用来跳过Xcode对bundle资源的签名
+
+config_pod_bundle_id_and_team_id({
+  'Debug' => {:bundle_id => 'com.ty.world.blkf.ios', :team_id => '6D9CNK3P5G'},
+  'Release' => {:bundle_id => 'com.ty.world.blkf.ios', :team_id => '4AL4CPQ36M'},
+  'Profile' => {:bundle_id => 'com.ty.world.blkf.ios', :team_id => '4AL4CPQ36M'}
+})

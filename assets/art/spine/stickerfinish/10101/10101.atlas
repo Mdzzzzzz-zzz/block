@@ -1,0 +1,62 @@
+
+10101.png
+size: 625,322
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+behind glasses
+  rotate: true
+  xy: 410, 186
+  size: 134, 127
+  orig: 134, 127
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 2
+  size: 406, 318
+  orig: 406, 318
+  offset: 0, 0
+  index: -1
+eye glow
+  rotate: false
+  xy: 564, 207
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+eye white
+  rotate: false
+  xy: 534, 44
+  size: 35, 31
+  orig: 35, 31
+  offset: 0, 0
+  index: -1
+front glasses
+  rotate: false
+  xy: 539, 215
+  size: 84, 105
+  orig: 84, 105
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: true
+  xy: 410, 65
+  size: 119, 122
+  orig: 119, 122
+  offset: 0, 0
+  index: -1
+retina
+  rotate: false
+  xy: 539, 190
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+right arm
+  rotate: false
+  xy: 534, 77
+  size: 89, 107
+  orig: 89, 107
+  offset: 0, 0
+  index: -1

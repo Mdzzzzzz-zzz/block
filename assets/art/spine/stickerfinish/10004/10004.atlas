@@ -1,0 +1,181 @@
+
+10004.png
+size: 992,330
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 300, 41
+  size: 287, 276
+  orig: 287, 276
+  offset: 0, 0
+  index: -1
+body white
+  rotate: true
+  xy: 2, 21
+  size: 307, 296
+  orig: 307, 296
+  offset: 0, 0
+  index: -1
+eye white
+  rotate: false
+  xy: 115, 13
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+eye white white
+  rotate: false
+  xy: 115, 13
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: -1
+left arm
+  rotate: false
+  xy: 822, 71
+  size: 42, 50
+  orig: 42, 50
+  offset: 0, 0
+  index: -1
+left arm white
+  rotate: true
+  xy: 744, 45
+  size: 64, 72
+  orig: 64, 72
+  offset: 0, 0
+  index: -1
+left ear
+  rotate: false
+  xy: 871, 188
+  size: 119, 140
+  orig: 144, 140
+  offset: 0, 0
+  index: -1
+left ear white
+  rotate: false
+  xy: 578, 2
+  size: 164, 160
+  orig: 164, 160
+  offset: 0, 0
+  index: -1
+left entrainer
+  rotate: false
+  xy: 487, 12
+  size: 20, 27
+  orig: 20, 27
+  offset: 0, 0
+  index: -1
+left entrainer white
+  rotate: true
+  xy: 744, 3
+  size: 40, 47
+  orig: 40, 47
+  offset: 0, 0
+  index: -1
+left eye white
+  rotate: true
+  xy: 452, 4
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+left leg
+  rotate: true
+  xy: 300, 3
+  size: 36, 54
+  orig: 36, 54
+  offset: 0, 0
+  index: -1
+left leg white
+  rotate: true
+  xy: 818, 11
+  size: 58, 76
+  orig: 58, 76
+  offset: 0, 0
+  index: -1
+left retina
+  rotate: true
+  xy: 95, 2
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 2, 6
+  size: 59, 13
+  orig: 59, 13
+  offset: 0, 0
+  index: -1
+right arm
+  rotate: true
+  xy: 896, 66
+  size: 50, 55
+  orig: 50, 55
+  offset: 0, 0
+  index: -1
+right arm white
+  rotate: true
+  xy: 744, 111
+  size: 71, 76
+  orig: 71, 76
+  offset: 0, 0
+  index: -1
+right ear
+  rotate: false
+  xy: 741, 184
+  size: 128, 144
+  orig: 141, 144
+  offset: 13, 0
+  index: -1
+right ear white
+  rotate: false
+  xy: 578, 164
+  size: 161, 164
+  orig: 161, 164
+  offset: 0, 0
+  index: -1
+right entainer
+  rotate: true
+  xy: 63, 2
+  size: 17, 30
+  orig: 17, 30
+  offset: 0, 0
+  index: -1
+right entainer white
+  rotate: true
+  xy: 356, 2
+  size: 37, 50
+  orig: 37, 50
+  offset: 0, 0
+  index: -1
+right eye whtie
+  rotate: false
+  xy: 408, 2
+  size: 42, 37
+  orig: 42, 37
+  offset: 0, 0
+  index: -1
+right leg
+  rotate: true
+  xy: 822, 123
+  size: 59, 47
+  orig: 59, 47
+  offset: 0, 0
+  index: -1
+right leg white
+  rotate: false
+  xy: 871, 118
+  size: 80, 68
+  orig: 80, 68
+  offset: 0, 0
+  index: -1
+righte retina
+  rotate: true
+  xy: 509, 20
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1

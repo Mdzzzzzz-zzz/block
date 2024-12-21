@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "dd0118b2-6af7-48ee-8b67-bc1fd39c0c89",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "eui_EndlessBestScore_gameover_job_anim"
+  }
+}
